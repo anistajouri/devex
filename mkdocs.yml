@@ -27,9 +27,9 @@ theme:
       primary: teal
       accent: lime
 
-#plugins:
-#  - social
-#  - search
+nav:
+  - about: index.md
+  - copilot: copilot.md  
 
 plugins:
   - material/search
