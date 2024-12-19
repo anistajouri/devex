@@ -1,4 +1,4 @@
-# devex
+# devex-cloud
 
 repository for the development of the DevEx website:
 

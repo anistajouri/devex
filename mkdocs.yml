@@ -1,5 +1,5 @@
-site_name: devex
-site_url: https://anistajouri.github.io/devex/
+site_name: devex-cloud
+site_url: https://anistajouri.github.io/devex-cloud/
 theme:
   name: material
   features:
@@ -30,6 +30,7 @@ theme:
 nav:
   - about: index.md
   - copilot: copilot.md  
+  - gcloud: gcloud.md  
 
 plugins:
   - material/search
