@@ -1,4 +1,4 @@
-site_name: devex & cloud
+site_name: devex - cloud developer experience
 site_url: https://anistajouri.github.io/devex/
 theme:
   name: material
@@ -29,8 +29,16 @@ theme:
 
 nav:
   - about: index.md
-  - copilot: copilot.md  
-  - gcloud: gcloud.md  
+  - Devex: 
+    - vscode: 
+       - vscode.md
+       - copilot: copilot.md  
+  - cloud: 
+    - GCP: gcloud.md  
+    - NIX: nix-shell.md  
+    - Linux: linux.md  
+    - K8s: kubectl.md  
+
 
 plugins:
   - material/search
