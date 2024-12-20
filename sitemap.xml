@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://anistajouri.github.io/devex/</loc>
+         <lastmod>2024-12-20</lastmod>
+    </url>
+    <url>
+         <loc>https://anistajouri.github.io/devex/copilot/</loc>
+         <lastmod>2024-12-20</lastmod>
+    </url>
+    <url>
+         <loc>https://anistajouri.github.io/devex/gcloud/</loc>
+         <lastmod>2024-12-20</lastmod>
+    </url>
+    <url>
+         <loc>https://anistajouri.github.io/devex/kubectl/</loc>
+         <lastmod>2024-12-20</lastmod>
+    </url>
+    <url>
+         <loc>https://anistajouri.github.io/devex/linux/</loc>
+         <lastmod>2024-12-20</lastmod>
+    </url>
+    <url>
+         <loc>https://anistajouri.github.io/devex/nix-shell/</loc>
+         <lastmod>2024-12-20</lastmod>
+    </url>
+    <url>
+         <loc>https://anistajouri.github.io/devex/vscode/</loc>
+         <lastmod>2024-12-20</lastmod>
+    </url>
+</urlset>
