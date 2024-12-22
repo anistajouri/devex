@@ -1,4 +1,4 @@
-site_name: devex - cloud developer experience
+site_name: Improve your productivity with developer experience
 site_url: https://anistajouri.github.io/devex/
 theme:
   name: material
@@ -25,20 +25,70 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode    
       primary: teal
-      accent: lime
 
 nav:
-  - about: index.md
-  - Devex: 
-    - vscode: 
-       - vscode.md
-       - copilot: copilot.md  
-  - cloud: 
-    - GCP: gcloud.md  
-    - NIX: nix-shell.md  
-    - Linux: linux.md  
-    - K8s: kubectl.md  
+  - About: index.md
 
+  - Core DevEx Principles:
+    - What is DevEx?: devex-definition.md
+    - Measuring DevEx: measuring-devex.md
+    - Well-being: well-being.md
+
+  - Skills & Certifications:
+    - Modern Team: skills/modern-collaboration.md
+    - Learning Paths: skills/learning-path-profiles.md
+    - Onboarding New developer:skills/ onboarding.md
+    - Certifications:
+      - Cloud Certifications: skills/cloud-certification.md
+      - GenAI Certifications: skills/genai-certification.md
+      - Developer Achievements: skills/achievements.md
+
+
+  - Dev Environment:   # Tools and local setup
+    - VS Code: dev-env/vscode.md
+    - AI Tools:
+      - GitHub Copilot: dev-env/copilot.md
+      - GenAI for DevEx: dev-env/genai.md
+    - Linux Development:
+      - Nix: dev-env/nix-shell.md
+      - Linux Basics: dev-env/linux.md
+
+  - Cloud-Native Development: # Building and deploying in the cloud
+    - Platforms:
+      - Google Cloud (GCP):
+        - gcloud CLI: cloud/gcloud.md
+      - Kubernetes:
+        - Kubernetes (K8s): cloud/k8s.md
+    - Tools:
+      - Docker: cloud/docker.md
+      - Terraform: cloud/terraform.md
+    - CI/CD Pipelines: cloud/cicd-pipelines.md # Focus on automation
+
+  - Developer Profiles:  # Configurations for specific roles
+    - Cloud:
+        - VS Code Setup: profiles/vscode-cloud-profile.md
+        - Code Snippets: profiles/cloud-snippets.md
+        - Templates: profiles/cloud-templates.md
+    - Microservices/Backend:
+        - Python:
+          - VS Code Setup: profiles/vscode-python-profile.md
+          - Code Snippets: profiles/python-snippets.md
+          - Templates: profiles/python-templates.md
+        - Java Spring Boot:
+          - VS Code Setup: profiles/vscode-spring-boot-profile.md
+          - Code Snippets: profiles/spring-boot-snippets.md
+          - Templates: profiles/spring-boot-templates.md
+        - Go:
+          - VS Code Setup: profiles/vscode-golang-profile.md
+          - Code Snippets: profiles/golang-snippets.md
+          - Templates: profiles/golang-templates.md
+    - Frontend/Web:
+        - Angular:
+          - VS Code Setup: profiles/vscode-angular-profile.md
+          - Code Snippets: profiles/angular-snippets.md
+          - Templates: profiles/angular-templates.md
+    
+    
 
 plugins:
   - material/search
