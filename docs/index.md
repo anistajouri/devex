@@ -2,7 +2,9 @@
 
 Welcome to my website. This is my personal space where I share my knowledge to improve the productivity through AI assisted tools and cloud engineering.
 
+Today, the developer is at the center of the digital transformation. The developer experience (DevEx) is a key factor in the success of any software project. This website is dedicated to exploring the tools, learning paths, processes, and environments that contribute to a positive DevEx.
 
+The modern developer evolves into a __cloud developer__, driving AI-powered productivity and cloud engineering excellence.
 
 # About me
 
