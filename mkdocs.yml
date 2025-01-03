@@ -27,67 +27,56 @@ theme:
       primary: teal
 
 nav:
-  - About: index.md
-
-  - Core DevEx Principles:
-    - What is DevEx?: devex-definition.md
-    - Measuring DevEx: measuring-devex.md
-    - Well-being: well-being.md
-
-  - Skills & Certifications:
-    - Modern Team: skills/modern-collaboration.md
-    - Learning Paths: skills/learning-path-profiles.md
-    - Onboarding New developer:skills/ onboarding.md
-    - Certifications:
-      - Cloud Certifications: skills/cloud-certification.md
-      - GenAI Certifications: skills/genai-certification.md
-      - Developer Achievements: skills/achievements.md
+  - About: 
+    - Home: index.md
+    - Devex components: devex/devex-components.md
+    - Measuring Devex: devex/measuring-devex.md
 
 
-  - Dev Environment:   # Tools and local setup
+  - Skills:
+    - Skills: skills/how-to-succeed.md
+    - Modern team: skills/modern-team.md
+    - Learning path: skills/learning-path.md
+    - Certifications: skills/certifications.md
+
+  - Environment:   # Tools and local setup
+    - nix: dev-env/nix.md
+    - diagram: dev-env/diagram.md
+    - Linux:
+      - Basics: dev-env/linux.md
+    - Git: dev-env/git.md
     - VS Code: dev-env/vscode.md
+    - Neovim: dev-env/neovim.md
     - AI Tools:
       - GitHub Copilot: dev-env/copilot.md
       - GenAI for DevEx: dev-env/genai.md
-    - Linux Development:
-      - Nix: dev-env/nix-shell.md
-      - Linux Basics: dev-env/linux.md
+    - Docker: dev-env/docker.md
+    - Dagger: dev-env/dagger.md
 
-  - Cloud-Native Development: # Building and deploying in the cloud
+
+  - Platforming CLI: # Building and deploying in the cloud
     - Platforms:
       - Google Cloud (GCP):
-        - gcloud CLI: cloud/gcloud.md
+        - gcloud CLI: platforming/gcloud.md
       - Kubernetes:
-        - Kubernetes (K8s): cloud/k8s.md
+        - kubectl CLI: platforming/kubectl.md
+      - idp:
+        - crossplane CLI: platforming/crossplane.md
     - Tools:
-      - Docker: cloud/docker.md
-      - Terraform: cloud/terraform.md
-    - CI/CD Pipelines: cloud/cicd-pipelines.md # Focus on automation
+      - Terraform CLI: platforming/terraform.md
 
-  - Developer Profiles:  # Configurations for specific roles
-    - Cloud:
-        - VS Code Setup: profiles/vscode-cloud-profile.md
-        - Code Snippets: profiles/cloud-snippets.md
-        - Templates: profiles/cloud-templates.md
-    - Microservices/Backend:
-        - Python:
-          - VS Code Setup: profiles/vscode-python-profile.md
-          - Code Snippets: profiles/python-snippets.md
-          - Templates: profiles/python-templates.md
-        - Java Spring Boot:
-          - VS Code Setup: profiles/vscode-spring-boot-profile.md
-          - Code Snippets: profiles/spring-boot-snippets.md
-          - Templates: profiles/spring-boot-templates.md
-        - Go:
-          - VS Code Setup: profiles/vscode-golang-profile.md
-          - Code Snippets: profiles/golang-snippets.md
-          - Templates: profiles/golang-templates.md
-    - Frontend/Web:
-        - Angular:
-          - VS Code Setup: profiles/vscode-angular-profile.md
-          - Code Snippets: profiles/angular-snippets.md
-          - Templates: profiles/angular-templates.md
-    
+  - templates:
+    - data:
+      - Cloud engineering templates: templates-profiles/data-eng/data-eng.md
+      - SQL/Modeling templates: templates-profiles/data-eng/data-modeling.md
+      - RAG templates: templates-profiles/data-eng/data-rag.md
+      - Analytics templates: templates-profiles/data-eng/data-analytics.md
+    - Apps:
+      - Microservices/Backend Templates: templates-profiles/apps-eng/backend.md
+      - Frontend/Web: templates-profiles/apps-eng/web.md
+      - Mobile: templates-profiles/apps-eng/mobile.md
+
+
     
 
 plugins:

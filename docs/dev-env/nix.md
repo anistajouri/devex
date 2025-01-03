@@ -1,7 +1,7 @@
-# nix-shell
+# nix
 
 
-## Introduction
+## Nix-shell
 
 
 nix-shell is a command that allows you to enter a shell with the dependencies specified in a `shell.nix` file. This is useful for building projects that have dependencies specified in a `shell.nix` file.
