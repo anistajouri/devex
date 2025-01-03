@@ -42,16 +42,16 @@ nav:
   - Environment:   # Tools and local setup
     - nix: dev-env/nix.md
     - diagram: dev-env/diagram.md
-    - Linux:
+    - Linux CLI:
       - Basics: dev-env/linux.md
-    - Git: dev-env/git.md
+    - Git CLI: dev-env/git.md
     - VS Code: dev-env/vscode.md
     - Neovim: dev-env/neovim.md
     - AI Tools:
       - GitHub Copilot: dev-env/copilot.md
       - GenAI for DevEx: dev-env/genai.md
-    - Docker: dev-env/docker.md
-    - Dagger: dev-env/dagger.md
+    - Docker CLI: dev-env/docker.md
+    - Dagger CLI: dev-env/dagger.md
 
 
   - Platforming CLI: # Building and deploying in the cloud

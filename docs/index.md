@@ -84,6 +84,21 @@ graph TB
 
 The goal of this website is to provide insights, best practices, and resources to help you build a modern developer experience that empowers you to deliver high-quality software efficiently and effectively.
 
+In absence of Idp, the application engineer should become a cloud developer to deliver the product. The cloud developer should be able to operate and monitor the application, optimize its performance, and collaborate effectively with the rest of the team.
+
+
+# Need templates
+
+Templates are starting points for projects. They provide a foundation for building a project, and can help save time and effort by providing a structure that has already been set up. Templates can be used for a variety of projects, from web applications to machine learning models.
+
+The template include:
+- A github repository with a README.md file.
+- A descrition of :
+  - diagram of target architecture.
+  - list of technologies used.
+  - list of languages used.
+- Corresponding vscode profile, snippets, and extensions for used languages.
+
 # My favorite technologies
 
 | Technology    | Why ?                                                                                                                      |
@@ -129,51 +144,5 @@ graph LR
   style F fill:#90EE90,stroke:#333,stroke-width:2px,color:#080
 ```
 
-## Cloud Platform
-
-**Description:** A cloud platform provides the infrastructure for both learning and production environments.
-
-Developers need a place to experiment and learn new cloud technologies (a learning platform) and a reliable, scalable platform to deploy and run their applications (a production platform). This covers the full lifecycle of cloud-native development.
-
-This also implies access to cloud resources, services, and the ability to self-serve in both environments.
-
-## GenAI
-
-**Description:** GenAI tools boost developer productivity through code completion, generation, and other AI-powered assistance.
-
-GenAI tools (like GitHub Copilot, code completion, code generation, documentation generation, etc.) can significantly increase a developer's coding speed and efficiency, reduce boilerplate code, and assist with debugging.
-
-This also includes learning how to effectively prompt AI, evaluate AI-generated code, and use AI to improve their skills.
-
-## Modern Team
-
-**Description:** Modern teams working in cloud environments see significant shifts in how Cloud Developers, Cloud Architects, Cloud DevOps engineers, and SREs operate, particularly with the integration of GenAI. GenAI enables these roles to move beyond routine tasks and engage more deeply in strategic and innovative work.
-
-This includes embracing DevOps principles, shared responsibilities, and empowering developers and operators to own the complete application lifecycle (from code to production). 
-
-## Dev Environment
-
-**Description:** A well-configured development environment enhances coding speed and productivity.
-
-A well-configured development environment includes a well-equipped IDE (with extensions), a functional shell and terminal, custom code snippets, and a working Linux environment that makes developers more effective.
-
-This highlights the need for a personalized development environment tailored to specific roles and tasks.
-
-## Dev Templates
-
-**Description:** Development templates provide starting points for new projects and reduce initial setup time.
-
-Starting with pre-built templates for common app structures, services, or deployments allows developers to skip the initial setup and focus on the business logic, leading to faster development cycles.
-
-This also reduces the risk of common errors, ensures consistency across projects, and reduces time on repetitive tasks.
-
-## Learning Path
-
-**Description:** A defined learning path ensures continuous growth and skill development for developers.
-
-A defined learning path provides a structured way for developers to acquire new skills, advance their careers, and stay up-to-date with the latest technologies.
-
-This can include certifications, courses, hands-on projects, documentation, or simply an internal knowledge transfer process within your organization.
-Use code with caution.
 
 
